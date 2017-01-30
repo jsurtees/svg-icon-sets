@@ -1,0 +1,39 @@
+html {
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+}
+
+.body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+svg {
+  fill: #fff;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.text, .button {
+  text-align: left;
+}
+
+.btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+li:first-child {
+  border-right: white solid 1px;
+}
+
+li:nth-child(1n+1) {
+  border-right: rgba(255, 255, 255, 0.5) solid 2px;
+}
+
+ul {
+  border-right: none;
+}
